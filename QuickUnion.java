@@ -47,7 +47,7 @@ public class QuickUnion {
 		if ((p < 0) || (p > id.length))
 			return(-1);
 		
-		while ((i > 0) && (i < id.length) && (id[i] != i) && (numIters < id.length) ) {
+		while ((i >= 0) && (i < id.length) && (id[i] != i) && (numIters < id.length) ) {
 			// add i < id.length to ensure
 			i = id[i];
 			numIters++;
