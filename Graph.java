@@ -3,7 +3,7 @@ package algos.algo1princeton.week1;
 * 
 */
 
-//ackage mincuts;
+//package mincuts;
 
 import java.io.File;
 import java.io.FileNotFoundException;
